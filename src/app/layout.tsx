@@ -16,13 +16,19 @@ export const metadata: Metadata = {
     siteName: 'J&G Exports',
     images: [
       {
-        url: 'https://placehold.co/1200x630.png',
+        url: 'https://source.unsplash.com/1200x630/?coffee,costa-rica',
         width: 1200,
         height: 630,
       },
     ],
     locale: 'en_US',
     type: 'website',
+  },
+   twitter: {
+    card: 'summary_large_image',
+    title: 'J&G Exports - Costa Rican Coffee, Plants & Cacao',
+    description: 'Your trusted export partner for premium, specialty Costa Rican coffee, ornamental plants, and cacao. We offer certified quality and reliable global logistics.',
+    images: ['https://source.unsplash.com/1200x630/?coffee,costa-rica'],
   },
 };
 
