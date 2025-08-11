@@ -123,8 +123,12 @@ export default function ContactSection() {
                                 checked={field.value?.includes(item)}
                                 onCheckedChange={(checked) => (
                                   checked
-                                    ? field.onChange([...field.value, item])
-                                    : field.onChange(field.value?.filter((value) => value !== item))
+                                    ? field.onChange([...(field.value || []), item])
+                                    : field.onChange(
+                                        (field.value || []).filter(
+                                          (value) => value !== item
+                                        )
+                                      )
                                 )}
                               />
                             </FormControl>
