@@ -33,7 +33,7 @@ const content = {
       title: "Our Premium Exports",
       coffee: {
         title: "Specialty Coffee",
-        description: "From the volcanic soils of Tarrazú and the Central Valley, we offer single-origin beans with exceptional cupping scores. Choose from washed, honey, or natural processing.",
+        description: "From the mountains of San Ramon, we offer single-origin beans with exceptional cupping scores. Choose from washed, honey, or natural processing.",
         cta: "Request Coffee Specs"
       },
       plants: {
@@ -157,7 +157,7 @@ const content = {
       title: "Nuestras Exportaciones Premium",
       coffee: {
         title: "Café de Especialidad",
-        description: "Desde los suelos volcánicos de Tarrazú y el Valle Central, ofrecemos granos de origen único con puntajes de catación excepcionales. Elija entre procesos lavado, honey o natural.",
+        description: "Desde las montañas de San Ramón, ofrecemos granos de origen único con puntajes de catación excepcionales. Elija entre procesos lavado, honey o natural.",
         cta: "Solicitar Ficha de Café"
       },
       plants: {

@@ -101,7 +101,7 @@ export default function HeroSection() {
         <div className="mt-16 grid w-full max-w-4xl grid-cols-1 gap-8 text-center sm:grid-cols-3">
           <div className="flex flex-col items-center gap-2">
             <Clock className="h-8 w-8 text-primary" />
-            <p className="text-3xl font-bold"><Counter to={15} />+</p>
+            <p className="text-3xl font-bold"><Counter to={1} />+</p>
             <p className="text-sm text-foreground/70">{t.hero.trustBadges.years}</p>
           </div>
           <div className="flex flex-col items-center gap-2">
@@ -111,7 +111,7 @@ export default function HeroSection() {
           </div>
           <div className="flex flex-col items-center gap-2">
             <Globe className="h-8 w-8 text-primary" />
-            <p className="text-3xl font-bold"><Counter to={25} />+</p>
+            <p className="text-3xl font-bold"><Counter to={2} />+</p>
             <p className="text-sm text-foreground/70">{t.hero.trustBadges.countries}</p>
           </div>
         </div>
