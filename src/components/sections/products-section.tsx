@@ -55,9 +55,9 @@ export default function ProductsSection() {
       description: t.products.coffee.description,
       cta: t.products.coffee.cta,
       images: [
-        { src: "https://source.unsplash.com/600x600/?specialty,coffee,roasting", hint: "specialty coffee roasting" },
-        { src: "https://source.unsplash.com/300x300/?coffee,cherries", hint: "coffee cherries" },
-        { src: "https://source.unsplash.com/300x300/?coffee,farm", hint: "coffee farm" },
+        { src: "https://placehold.co/600x600.png", hint: "specialty coffee roasting" },
+        { src: "https://placehold.co/300x300.png", hint: "coffee cherries" },
+        { src: "https://placehold.co/300x300.png", hint: "coffee farm" },
       ]
     },
     {
@@ -67,9 +67,9 @@ export default function ProductsSection() {
       description: t.products.plants.description,
       cta: t.products.plants.cta,
       images: [
-        { src: "https://source.unsplash.com/600x600/?tropical,houseplant", hint: "tropical houseplant" },
-        { src: "https://source.unsplash.com/300x300/?plant,greenhouse", hint: "plant greenhouse" },
-        { src: "https://source.unsplash.com/300x300/?plant,packaging", hint: "plant packaging" },
+        { src: "https://placehold.co/600x600.png", hint: "tropical houseplant" },
+        { src: "https://placehold.co/300x300.png", hint: "plant greenhouse" },
+        { src: "https://placehold.co/300x300.png", hint: "plant packaging" },
       ]
     },
     {
@@ -79,9 +79,9 @@ export default function ProductsSection() {
       description: t.products.cacao.description,
       cta: t.products.cacao.cta,
       images: [
-        { src: "https://source.unsplash.com/600x600/?cacao,pod", hint: "cacao pod" },
-        { src: "https://source.unsplash.com/300x300/?cacao,beans", hint: "cacao beans" },
-        { src: "https://source.unsplash.com/300x300/?drying,cacao", hint: "drying cacao" },
+        { src: "https://placehold.co/600x600.png", hint: "cacao pod" },
+        { src: "https://placehold.co/300x300.png", hint: "cacao beans" },
+        { src: "https://placehold.co/300x300.png", hint: "drying cacao" },
       ]
     },
   ];

@@ -4,11 +4,11 @@ import Image from "next/image";
 import { useLanguage } from "@/contexts/language-context";
 
 const certifications = [
-  { name: 'ICAFE', logo: 'https://source.unsplash.com/150x80/?logo,badge', hint: 'ICAFE logo' },
-  { name: 'Fair Trade', logo: 'https://source.unsplash.com/150x80/?logo,certificate', hint: 'fair trade' },
-  { name: 'USDA Organic', logo: 'https://source.unsplash.com/150x80/?logo,organic', hint: 'USDA organic' },
-  { name: 'Phytosanitary Certified', logo: 'https://source.unsplash.com/150x80/?logo,stamp', hint: 'phytosanitary certificate' },
-  { name: 'Rainforest Alliance', logo: 'https://source.unsplash.com/150x80/?logo,nature', hint: 'rainforest alliance' },
+  { name: 'ICAFE', logo: 'https://placehold.co/150x80.png', hint: 'ICAFE logo' },
+  { name: 'Fair Trade', logo: 'https://placehold.co/150x80.png', hint: 'fair trade' },
+  { name: 'USDA Organic', logo: 'https://placehold.co/150x80.png', hint: 'USDA organic' },
+  { name: 'Phytosanitary Certified', logo: 'https://placehold.co/150x80.png', hint: 'phytosanitary certificate' },
+  { name: 'Rainforest Alliance', logo: 'https://placehold.co/150x80.png', hint: 'rainforest alliance' },
 ];
 
 export default function CertificationsSection() {

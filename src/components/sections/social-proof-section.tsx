@@ -28,12 +28,12 @@ const testimonials = [
 ];
 
 const clientLogos = [
-  { name: "Client A", logo: "https://source.unsplash.com/150x60/?logo,gourmet", hint: "gourmet food" },
-  { name: "Client B", logo: "https://source.unsplash.com/150x60/?logo,coffee", hint: "coffee roaster" },
-  { name: "Client C", logo: "https://source.unsplash.com/150x60/?logo,chocolate", hint: "artisan chocolate" },
-  { name: "Client D", logo: "https://source.unsplash.com/150x60/?logo,plant", hint: "plant distributor" },
-  { name: "Client E", logo: "https://source.unsplash.com/150x60/?logo,import", hint: "import company" },
-  { name: "Client F", logo: "https://source.unsplash.com/150x60/?logo,luxury", hint: "luxury brand" },
+  { name: "Client A", logo: "https://placehold.co/150x60.png", hint: "gourmet food" },
+  { name: "Client B", logo: "https://placehold.co/150x60.png", hint: "coffee roaster" },
+  { name: "Client C", logo: "https://placehold.co/150x60.png", hint: "artisan chocolate" },
+  { name: "Client D", logo: "https://placehold.co/150x60.png", hint: "plant distributor" },
+  { name: "Client E", logo: "https://placehold.co/150x60.png", hint: "import company" },
+  { name: "Client F", logo: "https://placehold.co/150x60.png", hint: "luxury brand" },
 ];
 
 const Marquee = () => {
@@ -72,7 +72,7 @@ export default function SocialProofSection() {
                       <p className="text-lg italic text-foreground/90">"{testimonial.quote}"</p>
                       <div className="mt-6 flex items-center gap-4">
                         <Avatar>
-                          <AvatarImage src={`https://source.unsplash.com/40x40/?portrait,${testimonial.name.split(' ')[0]}`} />
+                          <AvatarImage src={`https://placehold.co/40x40.png`} />
                           <AvatarFallback>{testimonial.avatar}</AvatarFallback>
                         </Avatar>
                         <div>

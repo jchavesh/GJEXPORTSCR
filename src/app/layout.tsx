@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: 'J&G Exports',
     images: [
       {
-        url: 'https://source.unsplash.com/1200x630/?coffee,costa-rica',
+        url: 'https://placehold.co/1200x630.png',
         width: 1200,
         height: 630,
       },
