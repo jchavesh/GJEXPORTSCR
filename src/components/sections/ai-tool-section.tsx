@@ -4,7 +4,8 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
-import { suggestShippingLane, type SuggestShippingLaneOutput } from '@/ai/flows/suggest-shipping-lane';
+import { suggestShippingLane } from '@/ai/flows/suggest-shipping-lane';
+import type { SuggestShippingLaneOutput } from '@/ai/schemas/shipping-schemas';
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';

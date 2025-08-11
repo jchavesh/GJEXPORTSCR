@@ -1,55 +1,31 @@
 'use server';
-
 /**
- * @fileOverview A shipping lane suggestion AI agent.
+ * @fileOverview An AI flow to suggest optimal shipping lanes.
  *
- * - suggestShippingLane - A function that suggests the fastest and cheapest shipping lane.
- * - SuggestShippingLaneInput - The input type for the suggestShippingLane function.
- * - SuggestShippingLaneOutput - The return type for the suggestShippingLane function.
+ * - suggestShippingLane - A function that suggests a shipping lane based on products and destination.
  */
 
-import {ai} from '@/ai/genkit';
-import {z} from 'genkit';
-
-const SuggestShippingLaneInputSchema = z.object({
-  products: z
-    .array(z.enum(['Coffee', 'Ornamental Plants', 'Cacao']))
-    .describe('The products being shipped.'),
-  destinationCountry: z.string().describe('The destination country.'),
-  volume: z.string().describe('The annual volume of the products being shipped.'),
-});
-export type SuggestShippingLaneInput = z.infer<typeof SuggestShippingLaneInputSchema>;
-
-const SuggestShippingLaneOutputSchema = z.object({
-  shippingLane: z.string().describe('The suggested shipping lane.'),
-  necessaryCertifications: z.string().describe('The certifications necessary for the suggested shipping lane.'),
-  reasons: z.string().describe('Reasons why the suggested shipping lane is the fastest and cheapest.'),
-});
-export type SuggestShippingLaneOutput = z.infer<typeof SuggestShippingLaneOutputSchema>;
-
-export async function suggestShippingLane(input: SuggestShippingLaneInput): Promise<SuggestShippingLaneOutput> {
-  return suggestShippingLaneFlow(input);
-}
+import { ai } from '@/ai/genkit';
+import type { SuggestShippingLaneInput, SuggestShippingLaneOutput } from '@/ai/schemas/shipping-schemas';
+import { SuggestShippingLaneInputSchema, SuggestShippingLaneOutputSchema } from '@/ai/schemas/shipping-schemas';
 
 const prompt = ai.definePrompt({
-  name: 'suggestShippingLanePrompt',
-  input: {schema: SuggestShippingLaneInputSchema},
-  output: {schema: SuggestShippingLaneOutputSchema},
-  prompt: `You are an expert in international logistics, specializing in the export of agricultural products from Costa Rica.
+    name: 'suggestShippingLanePrompt',
+    input: { schema: SuggestShippingLaneInputSchema },
+    output: { schema: SuggestShippingLaneOutputSchema },
+    prompt: `You are an expert logistics coordinator for an export company in Costa Rica called J&G Exports.
+Your task is to recommend the best shipping lane for a potential customer based on their product selection, destination country, and estimated volume.
 
-You will be provided with the products being shipped, the destination country, and the annual volume. Your task is to suggest the fastest and cheapest shipping lane, taking into account current geopolitical conditions.
+The customer is interested in shipping the following products:
+{{#each products}}- {{this}}
+{{/each}}
+Destination: {{{destinationCountry}}}
+Estimated Volume: {{{volume}}} kg/year
 
-Products: {{products}}
-Destination Country: {{destinationCountry}}
-Annual Volume: {{volume}}
-
-Consider factors such as shipping time, cost, reliability, and any potential disruptions.
-
-Also, highlight any certifications that are necessary based on the shipping lane.
-
-Provide a brief explanation of why you chose this shipping lane.
-
-{{output}}
+Please provide the following information:
+1.  **Suggested Shipping Lane:** The most optimal route from Costa Rica to the destination (e.g., Port Limon to Port of Rotterdam). Be specific about transport type (sea, air).
+2.  **Necessary Certifications:** List the key certifications required for this specific shipment (e.g., Phytosanitary Certificate, Fair Trade, USDA Organic).
+3.  **Reasons:** Briefly explain why you recommend this route. Consider factors like cost-effectiveness for the given volume, transit time, and preservation requirements for the products (e.g., refrigerated containers for plants).
 `,
 });
 
@@ -59,8 +35,16 @@ const suggestShippingLaneFlow = ai.defineFlow(
     inputSchema: SuggestShippingLaneInputSchema,
     outputSchema: SuggestShippingLaneOutputSchema,
   },
-  async input => {
-    const {output} = await prompt(input);
-    return output!;
+  async (input) => {
+    const { output } = await prompt(input);
+    if (!output) {
+      throw new Error('Failed to generate a shipping suggestion.');
+    }
+    return output;
   }
 );
+
+
+export async function suggestShippingLane(input: SuggestShippingLaneInput): Promise<SuggestShippingLaneOutput> {
+  return await suggestShippingLaneFlow(input);
+}

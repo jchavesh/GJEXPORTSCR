@@ -1,5 +1,4 @@
 import { config } from 'dotenv';
 config();
 
-import '@/ai/flows/highlight-necessary-certifications.ts';
-import '@/ai/flows/suggest-shipping-lane.ts';
+// Intentionally left blank. Flows can be added here as needed.
