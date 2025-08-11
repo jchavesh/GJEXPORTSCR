@@ -55,9 +55,9 @@ export default function ProductsSection() {
       description: t.products.coffee.description,
       cta: t.products.coffee.cta,
       images: [
-        { src: "https://placehold.co/600x600.png", hint: "coffee beans roasting" },
-        { src: "https://placehold.co/300x300.png", hint: "coffee cherries" },
-        { src: "https://placehold.co/300x300.png", hint: "coffee farm" },
+        { src: "https://placehold.co/600x600.png", hint: "roasting specialty coffee" },
+        { src: "https://placehold.co/300x300.png", hint: "ripe coffee cherries" },
+        { src: "https://placehold.co/300x300.png", hint: "Costa Rica coffee farm" },
       ]
     },
     {
@@ -67,9 +67,9 @@ export default function ProductsSection() {
       description: t.products.plants.description,
       cta: t.products.plants.cta,
       images: [
-        { src: "https://placehold.co/600x600.png", hint: "exotic tropical plant" },
-        { src: "https://placehold.co/300x300.png", hint: "greenhouse interior" },
-        { src: "https://placehold.co/300x300.png", hint: "plant packaging" },
+        { src: "https://placehold.co/600x600.png", hint: "exotic tropical houseplant" },
+        { src: "https://placehold.co/300x300.png", hint: "plant nursery greenhouse" },
+        { src: "https://placehold.co/300x300.png", hint: "plant export packaging" },
       ]
     },
     {
@@ -79,9 +79,9 @@ export default function ProductsSection() {
       description: t.products.cacao.description,
       cta: t.products.cacao.cta,
       images: [
-        { src: "https://placehold.co/600x600.png", hint: "cacao pods" },
+        { src: "https://placehold.co/600x600.png", hint: "open cacao pod" },
         { src: "https://placehold.co/300x300.png", hint: "fermenting cacao beans" },
-        { src: "https://placehold.co/300x300.png", hint: "drying cacao beans" },
+        { src: "https://placehold.co/300x300.png", hint: "sun drying cacao" },
       ]
     },
   ];

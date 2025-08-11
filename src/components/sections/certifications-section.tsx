@@ -6,9 +6,9 @@ import { useLanguage } from "@/contexts/language-context";
 const certifications = [
   { name: 'ICAFE', logo: 'https://placehold.co/150x80.png', hint: 'ICAFE logo' },
   { name: 'Fair Trade', logo: 'https://placehold.co/150x80.png', hint: 'fair trade logo' },
-  { name: 'USDA Organic', logo: 'https://placehold.co/150x80.png', hint: 'organic logo' },
+  { name: 'USDA Organic', logo: 'https://placehold.co/150x80.png', hint: 'USDA organic logo' },
   { name: 'Phytosanitary Certified', logo: 'https://placehold.co/150x80.png', hint: 'phytosanitary shield' },
-  { name: 'Rainforest Alliance', logo: 'https://placehold.co/150x80.png', hint: 'rainforest alliance logo' },
+  { name: 'Rainforest Alliance', logo: 'https://placehold.co/150x80.png', hint: 'rainforest alliance frog' },
 ];
 
 export default function CertificationsSection() {

@@ -37,8 +37,8 @@ export default function Footer() {
             <h3 className="font-bold uppercase tracking-wider text-primary">{t.contact.info.title}</h3>
             <ul className="mt-4 space-y-2 text-sm">
                 <li>{t.contact.info.address}</li>
-                <li>quotes@jandgexports.com</li>
-                <li>+506 1234 5678</li>
+                <li>info@jgexportscr.com</li>
+                <li>+506 6133 0225</li>
             </ul>
           </div>
           <div>
