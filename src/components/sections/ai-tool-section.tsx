@@ -157,18 +157,24 @@ export default function AiToolSection() {
                       <CardTitle className="font-headline">{t.aiTool.results.title}</CardTitle>
                     </CardHeader>
                     <CardContent className="space-y-4">
-                      <div>
-                        <h4 className="flex items-center font-semibold"><Ship className="mr-2 h-4 w-4 text-primary" />{t.aiTool.results.lane}</h4>
-                        <p className="pl-6 text-foreground/80">{result.shippingLane}</p>
-                      </div>
-                      <div>
-                        <h4 className="flex items-center font-semibold"><FileCheck className="mr-2 h-4 w-4 text-primary" />{t.aiTool.results.certs}</h4>
-                        <p className="pl-6 text-foreground/80">{result.necessaryCertifications}</p>
-                      </div>
-                      <div>
-                        <h4 className="flex items-center font-semibold"><BrainCircuit className="mr-2 h-4 w-4 text-primary" />{t.aiTool.results.reasons}</h4>
-                        <p className="pl-6 text-foreground/80">{result.reasons}</p>
-                      </div>
+                      {result.shippingLane && (
+                        <div>
+                          <h4 className="flex items-center font-semibold"><Ship className="mr-2 h-4 w-4 text-primary" />{t.aiTool.results.lane}</h4>
+                          <p className="pl-6 text-foreground/80">{result.shippingLane}</p>
+                        </div>
+                      )}
+                      {result.necessaryCertifications && (
+                        <div>
+                          <h4 className="flex items-center font-semibold"><FileCheck className="mr-2 h-4 w-4 text-primary" />{t.aiTool.results.certs}</h4>
+                          <p className="pl-6 text-foreground/80">{result.necessaryCertifications}</p>
+                        </div>
+                      )}
+                      {result.reasons && (
+                        <div>
+                          <h4 className="flex items-center font-semibold"><BrainCircuit className="mr-2 h-4 w-4 text-primary" />{t.aiTool.results.reasons}</h4>
+                          <p className="pl-6 text-foreground/80">{result.reasons}</p>
+                        </div>
+                      )}
                     </CardContent>
                   </Card>
                 </AnimationWrapper>
