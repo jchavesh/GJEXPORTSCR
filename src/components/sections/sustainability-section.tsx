@@ -13,7 +13,7 @@ export default function SustainabilitySection() {
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-lg">
             <Image
               src="https://placehold.co/600x450.png"
-              data-ai-hint="farmer hands coffee cherries"
+              data-ai-hint="farmer hands"
               alt="Close-up of a farmer's hands holding fresh coffee cherries, representing partnership and care."
               fill
               className="object-cover transition-transform duration-500 hover:scale-105"

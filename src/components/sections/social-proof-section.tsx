@@ -28,12 +28,12 @@ const testimonials = [
 ];
 
 const clientLogos = [
-  { name: "Client A", logo: "https://placehold.co/150x60.png", hint: "gourmet food company" },
-  { name: "Client B", logo: "https://placehold.co/150x60.png", hint: "specialty coffee roaster" },
-  { name: "Client C", logo: "https://placehold.co/150x60.png", hint: "artisan chocolate brand" },
-  { name: "Client D", logo: "https://placehold.co/150x60.png", hint: "plant distributor logo" },
-  { name: "Client E", logo: "https://placehold.co/150x60.png", hint: "European import company" },
-  { name: "Client F", logo: "https://placehold.co/150x60.png", hint: "luxury brand logo" },
+  { name: "Client A", logo: "https://placehold.co/150x60.png", hint: "gourmet food" },
+  { name: "Client B", logo: "https://placehold.co/150x60.png", hint: "coffee roaster" },
+  { name: "Client C", logo: "https://placehold.co/150x60.png", hint: "artisan chocolate" },
+  { name: "Client D", logo: "https://placehold.co/150x60.png", hint: "plant distributor" },
+  { name: "Client E", logo: "https://placehold.co/150x60.png", hint: "import company" },
+  { name: "Client F", logo: "https://placehold.co/150x60.png", hint: "luxury brand" },
 ];
 
 const Marquee = () => {
