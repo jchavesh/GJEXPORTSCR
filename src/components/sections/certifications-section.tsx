@@ -28,7 +28,8 @@ export default function CertificationsSection() {
                 src={cert.logo}
                 alt={`${cert.name} certification logo`}
                 data-ai-hint={cert.hint}
-                fill
+                width={150}
+                height={80}
                 className="object-contain"
               />
             </div>
