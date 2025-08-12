@@ -36,12 +36,6 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'w7.pngwing.com',
-        port: '',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
         hostname: 'www.cafedealtura.cr',
         port: '',
         pathname: '/**',
