@@ -12,31 +12,31 @@ const testimonials = [
     title: "Head Buyer, The Coffee Collective",
     quote: "J&G's Tarrazú honey-processed coffee is a consistent bestseller. Their quality control and reliable logistics are second to none.",
     avatar: "JR",
-    avatarImage: "https://source.unsplash.com/40x40/?portrait,man"
+    avatarImage: "https://placehold.co/40x40.png"
   },
   {
     name: "Maria Flora",
     title: "Owner, Flora Imports EU",
     quote: "The ornamental plants always arrive in perfect condition. The phytosanitary documentation is flawless, making customs a breeze.",
     avatar: "MF",
-    avatarImage: "https://source.unsplash.com/40x40/?portrait,woman"
+    avatarImage: "https://placehold.co/40x40.png"
   },
   {
     name: "David Chocolatier",
     title: "Founder, Artisan Cacao",
     quote: "The fine aroma cacao from J&G has transformed our bean-to-bar products. Their sourcing transparency is exactly what we look for in a partner.",
     avatar: "DC",
-    avatarImage: "https://source.unsplash.com/40x40/?portrait,person"
+    avatarImage: "https://placehold.co/40x40.png"
   },
 ];
 
 const clientLogos = [
-  { name: "Client A", logo: "https://source.unsplash.com/150x60/?logo,gourmet", hint: "gourmet food" },
-  { name: "Client B", logo: "https://source.unsplash.com/150x60/?logo,coffee-roaster", hint: "coffee roaster" },
-  { name: "Client C", logo: "https://source.unsplash.com/150x60/?logo,chocolate", hint: "artisan chocolate" },
-  { name: "Client D", logo: "https://source.unsplash.com/150x60/?logo,plant-distributor", hint: "plant distributor" },
-  { name: "Client E", logo: "https://source.unsplash.com/150x60/?logo,import-export", hint: "import company" },
-  { name: "Client F", logo: "https://source.unsplash.com/150x60/?logo,luxury-brand", hint: "luxury brand" },
+  { name: "Client A", logo: "https://placehold.co/150x60.png", hint: "gourmet food" },
+  { name: "Client B", logo: "https://placehold.co/150x60.png", hint: "coffee roaster" },
+  { name: "Client C", logo: "https://placehold.co/150x60.png", hint: "artisan chocolate" },
+  { name: "Client D", logo: "https://placehold.co/150x60.png", hint: "plant distributor" },
+  { name: "Client E", logo: "https://placehold.co/150x60.png", hint: "import company" },
+  { name: "Client F", logo: "https://placehold.co/150x60.png", hint: "luxury brand" },
 ];
 
 const Marquee = () => {
