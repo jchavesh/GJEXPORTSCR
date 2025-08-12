@@ -12,7 +12,7 @@ export default function SustainabilitySection() {
         <div className="grid items-center gap-12 md:grid-cols-2">
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-lg">
             <Image
-              src="https://placehold.co/600x450.png"
+              src="https://images.unsplash.com/photo-1654564706005-b7828ace2cbe?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               data-ai-hint="farmer hands"
               alt="Close-up of a farmer's hands holding fresh coffee cherries, representing partnership and care."
               fill
