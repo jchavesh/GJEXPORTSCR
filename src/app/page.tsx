@@ -3,7 +3,6 @@ import HeroSection from '@/components/sections/hero-section';
 import ValuePropsSection from '@/components/sections/value-props-section';
 import ProductsSection from '@/components/sections/products-section';
 import ProcessSection from '@/components/sections/process-section';
-import AiToolSection from '@/components/sections/ai-tool-section';
 import SustainabilitySection from '@/components/sections/sustainability-section';
 import CertificationsSection from '@/components/sections/certifications-section';
 import SocialProofSection from '@/components/sections/social-proof-section';
@@ -26,9 +25,6 @@ export default function Home() {
         </AnimationWrapper>
         <AnimationWrapper>
           <ProcessSection />
-        </AnimationWrapper>
-        <AnimationWrapper>
-          <AiToolSection />
         </AnimationWrapper>
         <AnimationWrapper>
           <SustainabilitySection />

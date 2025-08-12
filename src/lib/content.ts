@@ -3,7 +3,6 @@ const content = {
     nav: {
       products: "Products",
       process: "Process",
-      aiTool: "AI Tool",
       sustainability: "Sustainability",
       certifications: "Certifications",
       faq: "FAQ",
@@ -57,24 +56,6 @@ const content = {
         { title: "Final Delivery", description: "Your shipment arrives safely, on time, with complete traceability from farm to port." },
       ]
     },
-    aiTool: {
-      title: "AI-Powered Logistics",
-      description: "Get an instant logistics suggestion. Our AI tool analyzes your shipment needs to recommend the fastest and most cost-effective shipping lanes, including necessary certifications.",
-      form: {
-        products: "Products of Interest",
-        destination: "Destination Country",
-        volume: "Estimated Annual Volume (kg)",
-        submit: "Suggest Shipping Lane",
-        loading: "Analyzing Routes...",
-      },
-      results: {
-        title: "Logistics Suggestion",
-        lane: "Suggested Shipping Lane",
-        certs: "Necessary Certifications",
-        reasons: "Why this route?",
-        error: "Could not generate a suggestion. Please try again or contact us directly."
-      }
-    },
     sustainability: {
       title: "Sustainability is in Our Roots",
       headline: "Committed to Planet & People",
@@ -127,7 +108,6 @@ const content = {
     nav: {
       products: "Productos",
       process: "Proceso",
-      aiTool: "Logística IA",
       sustainability: "Sostenibilidad",
       certifications: "Certificaciones",
       faq: "Preguntas",
@@ -180,24 +160,6 @@ const content = {
         { title: "Logística y Envío", description: "Coordinamos con los mejores transportistas para ofrecer envíos globales confiables y eficientes (FOB/CIF)." },
         { title: "Entrega Final", description: "Su envío llega de forma segura, a tiempo, con trazabilidad completa desde la finca hasta el puerto." },
       ]
-    },
-    aiTool: {
-      title: "Logística con Inteligencia Artificial",
-      description: "Obtenga una sugerencia logística al instante. Nuestra herramienta de IA analiza las necesidades de su envío para recomendar las rutas más rápidas y rentables, incluyendo las certificaciones necesarias.",
-      form: {
-        products: "Productos de Interés",
-        destination: "País de Destino",
-        volume: "Volumen Anual Estimado (kg)",
-        submit: "Sugerir Ruta de Envío",
-        loading: "Analizando rutas...",
-      },
-      results: {
-        title: "Sugerencia de Logística",
-        lane: "Ruta de Envío Sugerida",
-        certs: "Certificaciones Necesarias",
-        reasons: "¿Por qué esta ruta?",
-        error: "No se pudo generar una sugerencia. Por favor, intente de nuevo o contáctenos directamente."
-      }
     },
     sustainability: {
       title: "La Sostenibilidad está en Nuestras Raíces",

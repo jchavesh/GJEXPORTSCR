@@ -20,7 +20,6 @@ const Logo = () => (
 const navLinks = [
   { id: 'products', name: 'products' },
   { id: 'process', name: 'process' },
-  { id: 'ai-tool', name: 'aiTool' },
   { id: 'sustainability', name: 'sustainability' },
   { id: 'certifications', name: 'certifications' },
   { id: 'faq', name: 'faq' },
