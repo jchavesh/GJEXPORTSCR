@@ -57,7 +57,7 @@ const ParallaxBackground = () => {
   return (
     <div className="absolute inset-0 z-0 overflow-hidden">
       <Image
-        src="https://placehold.co/1920x1080.png"
+        src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=1061&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         data-ai-hint="coffee plantation jungle"
         alt="A lush Costa Rican landscape with coffee plants and tropical foliage"
         fill
