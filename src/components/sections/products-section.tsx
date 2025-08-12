@@ -55,9 +55,9 @@ export default function ProductsSection() {
       description: t.products.coffee.description,
       cta: t.products.coffee.cta,
       images: [
-        { src: "https://placehold.co/600x600.png", hint: "specialty coffee roasting" },
-        { src: "https://placehold.co/300x300.png", hint: "coffee cherries" },
-        { src: "https://placehold.co/300x300.png", hint: "coffee farm" },
+        { src: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", hint: "specialty coffee roasting" },
+        { src: "https://images.unsplash.com/photo-1497515114629-f71d768fd07c?q=80&w=1484&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", hint: "coffee cherries" },
+        { src: "https://images.unsplash.com/photo-1524350876685-274059332603?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", hint: "coffee farm" },
       ]
     },
     {
