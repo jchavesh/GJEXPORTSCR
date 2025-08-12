@@ -6,7 +6,7 @@ import { useLanguage } from "@/contexts/language-context";
 const certifications = [
   { name: 'ICAFE', logo: 'https://www.icafe.cr/wp-content/uploads/2024/11/logo_icafe_header.png', hint: 'ICAFE logo' },
   { name: 'PROCOMER', logo: 'https://upload.wikimedia.org/wikipedia/commons/e/e2/Logo_PROCOMER.png', hint: 'PROCOMER logo' },
-  { name: 'Rainforest Alliance', logo: 'https://www.cafedealtura.cr/wp-content/uploads/2024/02/Rain-Forest-Cafe-de-Altura.png', hint: 'Rainforest Alliance logo' },
+  { name: 'Certifica mi Finca', logo: 'https://fundacioncafecert.org/wp-content/uploads/2022/01/Nuevo-proyecto-2.png', hint: 'Certifica mi Finca logo' },
 ];
 
 export default function CertificationsSection() {

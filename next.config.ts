@@ -36,7 +36,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'www.cafedealtura.cr',
+        hostname: 'fundacioncafecert.org',
         port: '',
         pathname: '/**',
       },
