@@ -79,9 +79,9 @@ export default function ProductsSection() {
       description: t.products.cacao.description,
       cta: t.products.cacao.cta,
       images: [
-        { src: "https://placehold.co/600x600.png", hint: "cacao pod" },
-        { src: "https://placehold.co/300x300.png", hint: "cacao beans" },
-        { src: "https://placehold.co/300x300.png", hint: "drying cacao" },
+        { src: "https://images.unsplash.com/photo-1545567724-9b16e57c906d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", hint: "cacao pod" },
+        { src: "https://images.unsplash.com/photo-1545567725-ab9b17093edc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", hint: "cacao beans" },
+        { src: "https://images.unsplash.com/photo-1730766450751-070098b86214?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", hint: "drying cacao" },
       ]
     },
   ];
