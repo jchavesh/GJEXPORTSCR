@@ -36,7 +36,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'fundacioncafecert.org',
+        hostname: 'images.credly.com',
         port: '',
         pathname: '/**',
       },

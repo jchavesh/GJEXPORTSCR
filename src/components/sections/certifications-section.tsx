@@ -6,7 +6,7 @@ import { useLanguage } from "@/contexts/language-context";
 const certifications = [
   { name: 'ICAFE', logo: 'https://www.icafe.cr/wp-content/uploads/2024/11/logo_icafe_header.png', hint: 'ICAFE logo' },
   { name: 'PROCOMER', logo: 'https://upload.wikimedia.org/wikipedia/commons/e/e2/Logo_PROCOMER.png', hint: 'PROCOMER logo' },
-  { name: 'Certifica mi Finca', logo: 'https://fundacioncafecert.org/wp-content/uploads/2022/01/Nuevo-proyecto-2.png', hint: 'Certifica mi Finca logo' },
+  { name: 'Essential Costa Rica', logo: 'https://images.credly.com/images/fb44d8eb-3230-4d90-b533-c0c3b7391991/twitter_thumb_201604_image.png', hint: 'Essential Costa Rica brand logo' },
 ];
 
 export default function CertificationsSection() {

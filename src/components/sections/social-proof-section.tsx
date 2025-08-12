@@ -12,21 +12,21 @@ const testimonials = [
     title: "Head Buyer, The Coffee Collective",
     quote: "J&G's Tarrazú honey-processed coffee is a consistent bestseller. Their quality control and reliable logistics are second to none.",
     avatar: "JR",
-    avatarImage: "https://placehold.co/40x40.png"
+    avatarImage: "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     name: "Maria Flora",
     title: "Owner, Flora Imports EU",
     quote: "The ornamental plants always arrive in perfect condition. The phytosanitary documentation is flawless, making customs a breeze.",
     avatar: "MF",
-    avatarImage: "https://placehold.co/40x40.png"
+    avatarImage: "https://images.unsplash.com/photo-1484863137850-59afcfe05386?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     name: "David Chocolatier",
     title: "Founder, Artisan Cacao",
     quote: "The fine aroma cacao from J&G has transformed our bean-to-bar products. Their sourcing transparency is exactly what we look for in a partner.",
     avatar: "DC",
-    avatarImage: "https://placehold.co/40x40.png"
+    avatarImage: "https://images.unsplash.com/photo-1463453091185-61582044d556?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
 ];
 
@@ -75,7 +75,7 @@ export default function SocialProofSection() {
                       <p className="text-lg italic text-foreground/90">"{testimonial.quote}"</p>
                       <div className="mt-6 flex items-center gap-4">
                         <Avatar>
-                          <AvatarImage src={testimonial.avatarImage} />
+                          <AvatarImage src={testimonial.avatarImage} alt={`Avatar of ${testimonial.name}`} />
                           <AvatarFallback>{testimonial.avatar}</AvatarFallback>
                         </Avatar>
                         <div>
