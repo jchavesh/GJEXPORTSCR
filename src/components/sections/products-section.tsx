@@ -67,9 +67,9 @@ export default function ProductsSection() {
       description: t.products.plants.description,
       cta: t.products.plants.cta,
       images: [
-        { src: "https://placehold.co/600x600.png", hint: "tropical houseplant" },
-        { src: "https://placehold.co/300x300.png", hint: "plant greenhouse" },
-        { src: "https://placehold.co/300x300.png", hint: "plant packaging" },
+        { src: "https://images.unsplash.com/photo-1611645905259-7e023949b544?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", hint: "tropical houseplant" },
+        { src: "https://images.unsplash.com/photo-1722233852087-1961a4405ff9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", hint: "plant greenhouse" },
+        { src: "https://images.unsplash.com/photo-1723025956604-57b0253ad3b4?q=80&w=1477&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", hint: "plant packaging" },
       ]
     },
     {
